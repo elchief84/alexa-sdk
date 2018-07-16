@@ -68,6 +68,7 @@ class Intent {
 
 			foreach( $object_vars AS $object_var ) {
 				$this->slots[ $object_var->name ] = $object_var;
+				
 			}
 		}
 
